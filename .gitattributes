@@ -1,0 +1,6 @@
+# Preserve exact bytes: SHA256SUMS must also match GitHub source ZIPs and clones.
+* -text
+*.whl binary
+*.exe binary
+*.nupkg binary
+*.zip binary

@@ -1,0 +1,13 @@
+.venv/
+.runtime/
+.work/
+logs/
+verification-output/
+.runtime-info.json
+__pycache__/
+*.py[cod]
+*.partial
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/

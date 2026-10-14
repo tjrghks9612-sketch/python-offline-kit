@@ -1,0 +1,11 @@
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+extend-exclude = [".work", "wheels", "installers", "licenses", "verification-output"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.black]
+target-version = ["py313"]
+line-length = 100

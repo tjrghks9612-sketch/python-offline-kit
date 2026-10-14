@@ -1,0 +1,64 @@
+# Direct packages. tools/build_bundle.py freezes all transitive dependencies.
+# Python 3.13, CPython standard GIL build, Windows x86-64 only.
+
+# Data, statistics, databases and charts
+numpy
+pandas
+polars
+pyarrow
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+plotly
+duckdb
+SQLAlchemy
+pyodbc
+
+# Excel, Word, PowerPoint, PDF and images
+openpyxl
+XlsxWriter
+xlrd
+python-docx
+python-pptx
+pypdf
+pdfplumber
+reportlab
+Pillow
+
+# HTTP, HTML, local web applications and configuration
+requests
+httpx
+beautifulsoup4
+lxml
+fastapi
+uvicorn
+python-multipart
+streamlit
+Jinja2
+PyYAML
+python-dotenv
+pydantic
+cryptography
+
+# Notebooks
+jupyterlab
+ipykernel
+ipywidgets
+nbconvert
+
+# Automation and development
+rich
+tqdm
+typer
+tenacity
+rapidfuzz
+psutil
+pywin32
+pytest
+pytest-cov
+ruff
+black
+mypy
+build

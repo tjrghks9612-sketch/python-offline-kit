@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-14",
+  "python_version": "3.13.16",
+  "tested_platform": "Windows-11-10.0.26200-SP0",
+  "direct_packages": 52,
+  "wheel_count": 182,
+  "runs": [
+    {
+      "scenario": "working_folder",
+      "checked_at": "2026-10-14T07:11:25.114857+00:00",
+      "status": "PASS",
+      "tests": 24,
+      "passed": 24,
+      "failed": 0
+    },
+    {
+      "scenario": "fresh_zip_korean_spaced_path",
+      "checked_at": "2026-10-14T07:16:40.559772+00:00",
+      "status": "PASS",
+      "tests": 24,
+      "passed": 24,
+      "failed": 0
+    }
+  ],
+  "safety_tests": {
+    "status": "PASS",
+    "count": 6
+  },
+  "utf8_korean_path_output": "PASS",
+  "functional_checks": [
+    {
+      "name": "interpreter",
+      "status": "PASS"
+    },
+    {
+      "name": "all_pinned_versions",
+      "status": "PASS"
+    },
+    {
+      "name": "all_direct_imports",
+      "status": "PASS"
+    },
+    {
+      "name": "numpy_scipy_calculation",
+      "status": "PASS"
+    },
+    {
+      "name": "korean_excel_roundtrip",
+      "status": "PASS"
+    },
+    {
+      "name": "xlsxwriter_roundtrip",
+      "status": "PASS"
+    },
+    {
+      "name": "parquet_polars_duckdb",
+      "status": "PASS"
+    },
+    {
+      "name": "scikit_learn_fit",
+      "status": "PASS"
+    },
+    {
+      "name": "statsmodels_fit",
+      "status": "PASS"
+    },
+    {
+      "name": "png_chart",
+      "status": "PASS"
+    },
+    {
+      "name": "standalone_plotly_html",
+      "status": "PASS"
+    },
+    {
+      "name": "word_roundtrip",
+      "status": "PASS"
+    },
+    {
+      "name": "powerpoint_roundtrip",
+      "status": "PASS"
+    },
+    {
+      "name": "pdf_create_extract_render",
+      "status": "PASS"
+    },
+    {
+      "name": "sqlalchemy_sqlite",
+      "status": "PASS"
+    },
+    {
+      "name": "odbc_driver_enumeration",
+      "status": "PASS"
+    },
+    {
+      "name": "fastapi_in_process_request",
+      "status": "PASS"
+    },
+    {
+      "name": "html_parsing",
+      "status": "PASS"
+    },
+    {
+      "name": "configuration_validation",
+      "status": "PASS"
+    },
+    {
+      "name": "cryptography_roundtrip",
+      "status": "PASS"
+    },
+    {
+      "name": "notebook_html_and_jupyterlab",
+      "status": "PASS"
+    },
+    {
+      "name": "windows_com",
+      "status": "PASS"
+    },
+    {
+      "name": "pytest_ruff_black_mypy",
+      "status": "PASS"
+    },
+    {
+      "name": "network_guard",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Not tested on a factory-clean Windows VM.",
+    "Corporate execution policies, Office applications and live database connectivity are environment-specific."
+  ]
+}
